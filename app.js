@@ -21,3 +21,29 @@ document.getElementById("conteudo").innerHTML += servicosCategoria[2] + " - "
 document.getElementById("conteudo").innerHTML += servicosCategoria[3] + " - "
 document.getElementById("conteudo").innerHTML += servicosCategoria[4] + " - "
 document.getElementById("conteudo").innerHTML += servicosCategoria[5] + "  "
+
+document.getElementById("conteudo").innerHTML = "<ul>"
+ 
+
+  
+document.getElementById("conteudo").innerHTML += "<li>" + servicosCategoria[0] + "</li>"
+ 
+
+
+document.getElementById("conteudo").innerHTML += "<li>" + servicosCategoria[1] + "</li>"
+ 
+
+  
+document.getElementById("conteudo").innerHTML += "<li>" + servicosCategoria[2] + "</li>"
+ 
+
+  
+document.getElementById("conteudo").innerHTML += "<li>" + servicosCategoria[3] + "</li>"
+ 
+
+  
+document.getElementById("conteudo").innerHTML += "<li>" + servicosCategoria[4] + "</li>"
+ 
+
+
+document.getElementById("conteudo").innerHTML += "</ul>"
